@@ -34,6 +34,7 @@ shortest() {
 
 print_log() {
   # format date
+  msg=${@}
   log_time=$(date '+%Y-%m-%d %H:%M')
-  echo "[${log_time}] $1"
+  echo "[${log_time}] $msg"
 }
