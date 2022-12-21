@@ -1,3 +1,5 @@
 #!/bin/bash
 
-# Put your code here
+pow() {
+  echo $(($1 ** $2))
+}
