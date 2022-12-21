@@ -31,3 +31,9 @@ shortest() {
     echo ${e}
   done
 }
+
+print_log() {
+  # format date
+  log_time=$(date '+%Y-%m-%d %H:%M')
+  echo "[${log_time}] $1"
+}
